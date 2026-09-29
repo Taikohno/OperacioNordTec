@@ -27,3 +27,14 @@ git remote add origin
 git remote -v
 git push -u origin
 ```
+| Git Version | Git Init | Git push -u origin | Git branch    | Git commit -m "" |
+| ----------- | -------- | ------------------ | --- | ---------------- |
+| Shows git version       | Initializes Git    | sends the changes to the commit in the github repo               | shows your directory    | loads the changes for the following push                 |
+
+Errores:
+Los canvios no se ven en el repo de github despues de un commit
+
+Solucion:
+Asegurese de guardar el fitchero en local antes de nada, despues `git add .` para que se guarde en git, a continuación `git commit -m""` entre las comillas tienes que poner una descripción pequeña, y finalmente `git push -u origin` y recarga la pagina de github. 
+
+:3
