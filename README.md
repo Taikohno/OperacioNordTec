@@ -1,40 +1,40 @@
-# Tagdh O'Hare
-## Repte: el nostre README de práctica
-## Como subir un cambio a github
-* Guardar el documento en local (ctrl + s)
-* añadir el cambio al repositorio (add .)
-* realizar el commit (commit -m "")
-* hacer el push (push -u origin)
-* comprobar cambios en GitHub web 
-- [ ] Guardado en local
-- [ ] Añadir cambio
-- [ ] Realizar commit
-- [ ] Realizar push
-- [ ] Comprovar
+# Operació Nord Tec
+## Tagdh O'Hare Davis ASIX 1B
+**Index**
+* Estat del projecte
+* Arquitectura de xarxa
+* Configuracions
+* Incidencies i solucions
+* Decisions tècniques i reflexions
+## Estat de projecte
 
-El meu repositori:
-[https://github.com/Taikohno/OperacioNordTec.git](https://) 
+* Fet
 
-Comandas Utilizadas:
-```
-git --version
-git init
-git status
-git add .
-git commit -m ""
-git branch
-git remote add origin
-git remote -v
-git push -u origin
-```
-| Git Version | Git Init | Git push -u origin | Git branch    | Git commit -m "" |
-| ----------- | -------- | ------------------ | --- | ---------------- |
-| Shows git version       | Initializes Git    | sends the changes to the commit in the github repo               | shows your directory    | loads the changes for the following push                 |
+Arquitectura de xarxa
 
-Errores:
-Los canvios no se ven en el repo de github despues de un commit
+* Per fer
 
-Solucion:
-Asegurese de guardar el fitchero en local antes de nada, despues `git add .` para que se guarde en git, a continuación `git commit -m""` entre las comillas tienes que poner una descripción pequeña, y finalmente `git push -u origin` y recarga la pagina de github. 
+Configuracions
 
-:3
+Incidencies i solucions
+
+Deciosions tècniques i reflexions
+
+## Arquitectura de xarxa
+
+La Arquitectura inicial de la xarxa es la seguent:
+![Screenshot_20261013_094152]
+
+Aquest model de xarxa permet ampliació facil afegint switches per abaix del primari per a cada area de la empresa
+
+Hi ha un Firewall entre la xarxa y el router actuant com una DMZ per una seguretat mes avançada
+
+**Com configurar un ordinador en la xarxa**
+
+S'ha instalat un servei DHCP per la configuracio facil i en massa de les maquines clients
+
+**Exemple en Linux**
+
+sudo nano /etc/netplan/01-network-manager-all.yaml 
+
+![Screenshot_20261013_095128]
