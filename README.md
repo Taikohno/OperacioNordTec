@@ -23,7 +23,7 @@ Deciosions tècniques i reflexions
 ## Arquitectura de xarxa
 
 La Arquitectura inicial de la xarxa es la seguent:
-![Screenshot_20261013_094152.png]
+![Screenshot_20261013_094152]
 
 Aquest model de xarxa permet ampliació facil afegint switches per abaix del primari per a cada area de la empresa
 
@@ -37,4 +37,4 @@ S'ha instalat un servei DHCP per la configuracio facil i en massa de les maquine
 
 sudo nano /etc/netplan/01-network-manager-all.yaml 
 
-![Screenshot_20261013_095128.png]
+![Screenshot_20261013_095128]
