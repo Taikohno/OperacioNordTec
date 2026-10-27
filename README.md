@@ -23,7 +23,7 @@ Deciosions tècniques i reflexions
 ## Arquitectura de xarxa
 
 La Arquitectura inicial de la xarxa es la seguent:
-![Screenshot_20261013_094152]
+![Screenshot_20261013_094152] 
 
 Aquest model de xarxa permet ampliació facil afegint switches per abaix del primari per a cada area de la empresa
 
